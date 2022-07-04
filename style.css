@@ -59,28 +59,6 @@ header {
 }
 
 
-@media only screen and (max-width: 600px) {
-    .nav_links li {
-        display: inline-block;
-        padding: 20px 5%;
-    }
-
-    .btn {
-        display: inline-block;
-        background: #2e2a7e;
-        color: #ffffff;
-        padding: 10px 15px;
-        margin: 15px 0;
-        border-radius: 50px;
-        transition: all 0.3s ease 0s;
-    }
-    
-    .btn:hover {
-        color: #222222;
-    }
-}
-
-
 .btn {
     display: inline-block;
     background: #2e2a7e;
