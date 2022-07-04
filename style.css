@@ -47,7 +47,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 300px 25px;
+    padding: 20px 25px;
 }
 
 .nav_links li a {
@@ -58,17 +58,40 @@ header {
     color: #2e2a7e;
 }
 
-button {
-    padding: 10px 25px;
+
+@media only screen and (max-width: 600px) {
+    .nav_links li {
+        display: inline-block;
+        padding: 20px 5%;
+    }
+
+    .btn {
+        display: inline-block;
+        background: #2e2a7e;
+        color: #ffffff;
+        padding: 10px 15px;
+        margin: 15px 0;
+        border-radius: 50px;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .btn:hover {
+        color: #222222;
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    background: #2e2a7e;
     color: #ffffff;
-    background-color: #2e2a7e;
-    border: none;
+    padding: 8px 30px;
+    margin: 30px 0;
     border-radius: 50px;
-    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.btn:hover {
     color: #222222;
 }
 
@@ -89,11 +112,11 @@ button:hover {
 
 .col-1 {
     flex-basis: 50%;
-    text-align:center;
+    text-align: center;
     min-width: 300px;
 }
 
-.col-1 p{
+.col-1 p {
     color: #676363;
     font-size: 16px;
 }
@@ -105,21 +128,6 @@ button:hover {
     margin: 25px 0;
 }
 
-
-.btn {
-    display: inline-block;
-    background: #2e2a7e;
-    color: #ffffff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-}
-
-.btn:hover {
-    color: #222222;
-}
-
 /*--about--*/
 
 .col-2 img {
@@ -128,7 +136,7 @@ button:hover {
     border-radius: 10px;
 }
 
-.col-2 h2{
+.col-2 h2 {
     font-size: 26px;
     font-weight: bold;
     line-height: 60px;
@@ -167,7 +175,7 @@ button:hover {
     padding: 5px;
 }
 
-.skillblock{
+.skillblock {
     display: inline-block;
 }
 
@@ -210,12 +218,12 @@ button:hover {
     transform: translateY(-10px);
 }
 
-.fa.fa-star{
+.fa.fa-star {
     margin-top: 5px;
     color: #2e2a7e;
 }
 
-.fa.fa-star-o{
+.fa.fa-star-o {
     margin-top: 5px;
     color: #2e2a7e;
 }
@@ -271,7 +279,7 @@ footer {
     padding: 20px 0 20px;
 }
 
-.footer-col-1{
+.footer-col-1 {
     flex-basis: 12%;
     text-align: center;
 }
