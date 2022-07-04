@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(223, 246, 255);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*--Navbar--*/
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #ffffff;
+    background-color: rgb(6, 40, 61);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 300px 25px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #2e2a7e;
+}
+
+button {
+    padding: 10px 25px;
+    color: #ffffff;
+    background-color: #2e2a7e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: #222222;
+}
+
+/*--Introduction--*/
+
+.introduction {
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: rgb(180, 216, 239);
+}
+
+.col-1 {
+    flex-basis: 50%;
+    text-align:center;
+    min-width: 300px;
+}
+
+.col-1 p{
+    color: #676363;
+    font-size: 16px;
+}
+
+.col-1 h1 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #2e2a7e;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    color: #222222;
+}
+
+/*--about--*/
+
+.col-2 img {
+    max-width: 85%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.col-2 h2{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 10px 0;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    text-align: left;
+    min-width: 300px;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.small-container h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 15px 0;
+}
+
+/*--Skils--*/
+
+.row-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.skillblock{
+    display: inline-block;
+}
+
+.col-3 {
+    flex-direction: column;
+    min-width: 250px;
+    margin-bottom: 15px;
+}
+
+.col-3 img {
+    font-size: 12px;
+    margin: 12px 0;
+    width: 100%;
+}
+
+.col-3 p {
+    color: #565656;
+    font-style: oblique;
+}
+
+.developers {
+    margin-bottom: 50px;
+}
+
+.developers .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.developers .col-3 img {
+    max-width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.developers .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.fa.fa-star{
+    margin-top: 5px;
+    color: #2e2a7e;
+}
+
+.fa.fa-star-o{
+    margin-top: 5px;
+    color: #2e2a7e;
+}
+
+.developers .col-3 h3 {
+    font-weight: 600;
+    color: #222222;
+    font-size: 16px;
+}
+
+/*--Projects/work--*/
+
+.features {
+    margin: 20px 0;
+}
+
+.col-4 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4:hover {
+    opacity: 0.2;
+}
+
+.col-4 p {
+    font-size: 14px;
+    text-align: justify;
+    color: #565656;
+    margin-top: 5px;
+}
+
+/*--Footer--*/
+
+.row-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer {
+    background-color: rgb(6, 40, 61);
+    color: #f8f8ff;
+    font-size: 14px;
+    padding: 20px 0 20px;
+}
+
+.footer-col-1{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+/*--Extra--*/
+
+.row {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}

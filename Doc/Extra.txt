@@ -1,2 +1,13 @@
 Colorpalet
 https://colorhunt.co/palette/06283d1363df47b5ffdff6ff 
+
+Header/Footer-Background: rgb(6, 40, 61)
+Button-Color: 
+Box-Color: rgb(223, 246, 255)
+Background-color : rgb(180, 216, 239)
+Letters-Color: rgb(255, 255, 255)
+
+Font-family: Sans-serif
+
+To do:
+- Favicon
