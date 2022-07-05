@@ -13,7 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /*--Navbar--*/
 
 li,
@@ -58,7 +57,6 @@ header {
     color: #2e2a7e;
 }
 
-
 .btn {
     display: inline-block;
     background: #2e2a7e;
@@ -71,6 +69,22 @@ header {
 
 .btn:hover {
     color: #222222;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_links li {
+        padding: 10px 15px;
+    }
+
+    .nav_links li a {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 4px 15px;
+        margin: 15px 0;
+    }
+
 }
 
 /*--Introduction--*/
@@ -106,6 +120,12 @@ header {
     margin: 25px 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .col-1 h1 {
+        font-size: 55px;
+    }
+}
+
 /*--about--*/
 
 .col-2 img {
@@ -114,7 +134,7 @@ header {
     border-radius: 10px;
 }
 
-.col-2 h2 {
+.col-2 h1 {
     font-size: 26px;
     font-weight: bold;
     line-height: 60px;
