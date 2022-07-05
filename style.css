@@ -134,6 +134,15 @@ header {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .col-2 img {
+        max-width: 100%;
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+}
+
 .col-2 h1 {
     font-size: 26px;
     font-weight: bold;
